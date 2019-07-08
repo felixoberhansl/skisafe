@@ -96,6 +96,7 @@ void loop()
     }
 
     if (millis() > lastRadioPacketMillis + RADIO_PACKET_INTERVAL) {
+        lastRadioPacketMillis = millis();
         sendRadioPacket();
     }
 }
