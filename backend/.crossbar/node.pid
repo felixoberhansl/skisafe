@@ -1,0 +1,20 @@
+{
+    "pid": 1606, 
+    "argv": [
+        "crossbar", 
+        "start"
+    ], 
+    "options": {
+        "debug_lifecycle": false, 
+        "debug_programflow": false, 
+        "command": "start", 
+        "color": "auto", 
+        "loglevel": "info", 
+        "logformat": "standard", 
+        "logdir": null, 
+        "logtofile": false, 
+        "cbdir": "/home/felix/fraunhofer_iotcamp/gruppe4/backend/.crossbar", 
+        "config": "config.json", 
+        "shutdownafter": null
+    }
+}

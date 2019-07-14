@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> SkiSafe V0.1</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+
+  <link rel="stylesheet" href="map.css"/>
+
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+  
+
+</head>
+
+<body>  
+  <img src="ressources/header.jpg" width="1300" height="110">
+  <div id="mapid"></div>
+  
+  <script src="ressources/autobahn.min.js"></script>
+
+  <script src="map.js"></script>
+
+  <div class="person_monitor">
+  <h3 id="top"> Live Monitoring</h3>
+    <img id="happy" class="img1" src="ressources/emoticon_happy.png" width= "190" height="190"/>
+    <img id="sad" class="img2" src="ressources/emoticon_sad.png" style="display:none;" width="150" height="150" style="display:none;"/>
+    <table style="width:50%">
+      <tr>
+        <th></th>
+        <th></th> 
+      </tr>
+      <tr>
+        <td>Time Out:</td>
+        <td>Fall Intensity:</td> 
+        <td>Temperature:</td>
+      </tr>
+      <tr>
+        <td id="timeout">00:00</td>
+        <td id="fallintensity">0</td> 
+        <td id="temperature">0</td>
+      </tr>
+    </table>
+    <h3 id="alarmmessage"> </h3> 
+  </div>
+
+</body>
+</html>
+
+
+
+
