@@ -94,7 +94,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'sk.eyJ1IjoiZmVsaXhvYmVyaGFuc2wiLCJhIjoiY2p4dTFjaWwxMHhqNTNrbjV4ZXd6a3E2eiJ9.Cg5j--bvq7E8N8LXBudTOA'
+    accessToken: '' //enter API key here
 }).addTo(mymap);
 
 
