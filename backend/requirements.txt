@@ -14,7 +14,7 @@ chardet==3.0.4
 Click==7.0
 constantly==15.1.0
 crossbar==19.6.2
-cryptography==2.7
+cryptography==3.2
 flatbuffers==1.11
 h2==3.1.0
 hpack==3.0.0
